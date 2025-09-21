@@ -1,0 +1,7 @@
+create event "Meeting" from 2025-03-01 10:00 to 2025-03-01 11:00 --location "Office"
+create event "Holiday" on 2025-03-02 --description "Day off"
+create recurring event "Weekly Sync" from 2025-03-15 09:00 to 2025-03-15 10:00 --weekdays "MW" --occurrences 5 --location "Conference Room"
+edit event subject "Meeting" at 2025-03-01 10:00 to "Updated Meeting"
+print events from 2025-03-01 10:00 to 2025-03-01 23:59
+export cal my_calendar.csv
+exit
